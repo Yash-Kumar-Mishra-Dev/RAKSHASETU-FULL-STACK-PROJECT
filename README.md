@@ -1,638 +1,1150 @@
+# 🛡️ RAKSHASETU (रक्षासेतु)
+### AI-Powered Disaster Preparedness & Emergency Response Platform
 
-You are a Senior Software Architect, Technical Documentation Engineer, System Designer, and GitHub README Specialist.
-
-TASK:
-Create a complete, professional, visually impressive MASTER README.md for my project:
-
-# RAKSHASETU (रक्षासेतु)
-AI-Powered Disaster Preparedness & Emergency Response Platform
-Competition: INNOVIK 6.0
-Team: UnoReverse
-
-IMPORTANT:
-Do not create a generic README.
-First inspect the ENTIRE existing repository, its folders, source code, configuration files, dependencies, model files, scripts, datasets, and frontend/backend implementations.
-
-Then create one consolidated README.md at the ROOT of the repository.
-
-==================================================
-1. REPOSITORY INSPECTION
-==================================================
-
-Inspect all relevant files and directories, including:
-
-- ml/
-- rakshasetu-research/
-- All frontend application directories
-- All backend application directories
-- Nx workspace configuration
-- NestJS applications and modules
-- Next.js configuration
-- Python scripts
-- Model files (.pt)
-- CSV datasets
-- JSON training logs
-- Configuration files
-- package.json
-- requirements.txt
-- Existing README files
-- API controllers and services
-- Database schemas and configurations
-
-Identify the actual implementation and distinguish between:
-1. Implemented features
-2. Partially implemented features
-3. Research/model components
-4. Planned integrations
-
-Do not invent APIs, endpoints, database technologies, authentication mechanisms, deployment configurations, or integrations.
-
-Preserve actual filenames, commands, model metrics and architecture details.
-
-==================================================
-2. README DESIGN REQUIREMENTS
-==================================================
-
-Create an exceptionally professional GitHub README.
-
-Visual style:
-- Modern enterprise-level documentation.
-- Clean technical architecture presentation.
-- Consistent Mermaid diagram styling.
-- Proper section hierarchy.
-- Professional tables.
-- Clear technical explanations.
-- Well-organized collapsible sections.
-- Minimal but meaningful emojis.
-- GitHub-compatible Markdown.
-- No unnecessary decorative content.
-
-Use Mermaid diagrams wherever they improve understanding.
-
-IMPORTANT:
-Every Mermaid diagram must have:
-- Meaningful node names.
-- Proper directional arrows.
-- Logical grouping.
-- Consistent color coding.
-- Clear start and end points.
-- No disconnected or misleading components.
-- Correct data-flow direction.
-
-Use Mermaid classDef for consistent diagram styling.
-
-Color convention:
-- Blue: Frontend and user interfaces.
-- Green: Backend and application services.
-- Purple: AI/ML components.
-- Orange: Event processing and workflows.
-- Grey: Database, storage and infrastructure.
-- Cyan: External data sources.
-
-==================================================
-3. REQUIRED README SECTIONS
-==================================================
-
-Create the following sections in the exact logical order.
-
-01. Project Banner
-02. Project Overview
-03. Problem Statement
-04. Project Objectives
-05. Key Features
-06. Technology Stack
-07. Complete System Architecture
-08. System Design Overview
-09. Four Operational Panels
-10. End-to-End Disaster Management Workflow
-11. Frontend Architecture
-12. Backend Architecture
-13. Nx Workspace Architecture
-14. API Gateway and Request Lifecycle
-15. AI/ML Intelligence Architecture
-16. Multi-Source Sensor Fusion
-17. Z-Score Anomaly Detection
-18. EDAD-Inspired Deep Learning Architecture
-19. Aurora Forecasting Architecture
-20. Emergency Priority Queue Engine
-21. Citizen SOS Workflow
-22. Government Command Center Workflow
-23. Field Responder Workflow
-24. Admin and RBAC Architecture
-25. Event-Driven Communication Architecture
-26. Database and Core Data Entities
-27. Research and Dataset Documentation
-28. Data Preprocessing Pipeline
-29. Model Training Workflow
-30. Model Evaluation and Benchmark Results
-31. Complete Repository Structure
-32. Prerequisites
-33. Installation and Setup
-34. Frontend Execution
-35. Backend Execution
-36. ML Pipeline Execution
-37. Complete Platform Execution
-38. Environment Variables
-39. API Documentation
-40. Deployment Architecture
-41. Testing and Validation
-42. Security and Reliability
-43. Troubleshooting
-44. Future Scope
-45. Project Information
-46. Team Information
-47. License and Acknowledgements
-
-==================================================
-4. MANDATORY VISUAL ARCHITECTURE DIAGRAMS
-==================================================
-
-Create beautiful, detailed Mermaid diagrams for ALL the following:
-
-A. MASTER SYSTEM ARCHITECTURE
-
-Show the complete ecosystem:
-
-External Data Sources
-        ↓
-Frontend Applications
-        ↓
-Nx / NestJS Backend
-        ↓
-API Gateway
-        ↓
-Business Logic
-        ↓
-AI/ML Intelligence Layer
-        ↓
-Event Communication
-        ↓
-Data Storage
-        ↓
-Four Operational Panels
-
-Show correct bidirectional communication wherever applicable.
-
-B. COMPLETE DISASTER MANAGEMENT LIFECYCLE
-
-Show:
-
-Data Collection
-→ Validation
-→ Sensor Fusion
-→ AI/ML Analysis
-→ Anomaly Detection
-→ Threat Assessment
-→ Priority Scoring
-→ Government Alert
-→ Responder Dispatch
-→ Incident Verification
-→ Mission Execution
-→ Resolution
-→ Audit Logging
-
-Include decision nodes for detected threats and incident verification.
-
-C. FOUR-PANEL SYSTEM ARCHITECTURE
-
-Show the four panels:
-
-1. Government Command Center
-2. Citizen Safety Portal
-3. Field Responder Dashboard
-4. Platform Administration
-
-Show their respective features and connections to shared backend services.
-
-D. BACKEND ARCHITECTURE
-
-Show:
-
-Nx Workspace
-→ NestJS API Gateway
-→ Request Validation
-→ Business Logic
-→ Application Modules
-
-Include:
-- Authentication
-- RBAC
-- Incident Management
-- Mission Management
-- Resource Management
-- Audit Management
-- Notification/Event Management
-
-Only include modules that are actually present or clearly label conceptual architecture.
-
-E. FRONTEND ARCHITECTURE
-
-Show Next.js application structure, routing, portal interfaces, reusable components and backend API communication based on actual source files.
-
-F. API REQUEST LIFECYCLE
-
-Create a sequence diagram showing:
-
-Client
-→ API Gateway
-→ Validation
-→ Authentication/Authorization
-→ Application Service
-→ Data Layer
-→ Response
-
-Only show actual implemented security stages as implemented.
-
-G. SENSOR FUSION ARCHITECTURE
-
-Show all four documented sources:
-
-- IoT Weather/Hydrology Sensors
-- Citizen SOS and Geo-Reports
-- Field Responder Observations
-- Satellite and Meteorological APIs
-
-Show validation, trust-weighted fusion and SensedZoneState output.
-
-Include the actual fusion equation:
-
-Fused Value = Σ(vᵢ × wᵢ) / Σ(wᵢ)
-
-H. ANOMALY DETECTION ARCHITECTURE
-
-Show parallel processing:
-
-Input Windows
-→ Z-Score Baseline
-→ EDAD-Inspired Model
-→ Anomaly Assessment
-
-I. EDAD MODEL ARCHITECTURE
-
-Show:
-
-Input Time Series
-→ 1D-CNN
-→ Bidirectional GRU
-→ Temporal Representation
-→ Dual Decomposition
-→ Trend Zs and Auxiliary Za
-→ InfoNCE Contrastive Head
-→ Mutual Information Penalty Guard
-→ Anomaly Scoring
-
-J. AURORA MODEL ARCHITECTURE
-
-Show:
-
-Historical Input
-→ 1D-CNN
-→ Bidirectional GRU
-→ Temporal Attention
-→ Seq2Seq Decoder
-→ One-Hour-Ahead Forecast
-
-K. PRIORITY QUEUE ARCHITECTURE
-
-Show:
-
-Incident Data
-→ Severity
-→ Affected Population
-→ Distance
-→ Time Sensitivity
-→ Resource Availability
-→ Multi-Factor Scoring
-→ P1/P2/P3/P4 Classification
-→ Responder Mission Queue
-
-Do not invent scoring weights or classification thresholds.
-
-L. CITIZEN SOS SEQUENCE DIAGRAM
-
-Citizen
-→ Citizen Portal
-→ Location Collection
-→ SOS Submission
-→ Backend
-→ Incident Processing
-→ Government
-→ Responder
-→ Status Update
-
-M. GOVERNMENT OPERATIONS WORKFLOW
-
-Show incident monitoring, threat assessment, resource allocation, department coordination and responder coordination.
-
-N. FIELD RESPONDER WORKFLOW
-
-Show mission queue, incident verification, mission execution, field evidence, status updates and escalation.
-
-O. ADMIN AND RBAC WORKFLOW
-
-Show authentication, role identification, permission validation, authorized operations and audit records.
-
-P. EVENT-DRIVEN ARCHITECTURE
-
-Include documented Kafka topic names:
-
-- incident.created
-- sensing.fused
-- anomaly.detected
-- mission.assigned
-- audit.event
-
-Show producers, consumers and communication directions based on documented architecture.
-
-Q. RESEARCH PIPELINE
-
-Show:
-
-Dataset
-→ Data Inspection
-→ Chronological Split
-→ Preprocessing
-→ Feature Engineering
-→ Z-Score Training
-→ EDAD Training
-→ Evaluation
-→ Report Generation
-→ Model Artifacts
-
-R. DEPLOYMENT ARCHITECTURE
-
-Create a logical deployment diagram for frontend, backend, ML inference, storage and external integrations.
-
-Clearly label unverified infrastructure as proposed architecture, not existing deployment.
-
-==================================================
-5. AI/ML DOCUMENTATION
-==================================================
-
-Document every model separately.
-
-Z-SCORE MODEL:
-- Statistical baseline.
-- Per-node Gaussian deviation.
-- Eight environmental metrics.
-- Thresholds: 2.0, 2.5, 3.0.
-- Baseline artifact location.
-
-EDAD-INSPIRED MODEL:
-- 1D-CNN.
-- Bidirectional GRU.
-- Trend and auxiliary decomposition.
-- InfoNCE temporal contrastive head.
-- Mutual information penalty guard.
-- 15 training epochs.
-- 124,936 trainable parameters.
-- Model artifact location.
-
-AURORA MODEL:
-- Seq2Seq architecture.
-- 1D-CNN.
-- Bidirectional GRU.
-- Temporal attention.
-- One-hour-ahead forecasting.
-- Eight environmental channels.
-- Model artifact location.
-
-SENSOR FUSION:
-- Trust-weighted source fusion.
-- Fused environmental state.
+<p align="center">
+  <strong>INNOVIK 6.0 | Team UnoReverse</strong>
+  <br/>
+  Intelligent Monitoring • Predictive Analytics • Emergency Coordination • Citizen Safety
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Enabled-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Disaster-Management-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Integrated-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/INNOVIK-6.0-orange?style=for-the-badge" />
+</p>
+
+---
+
+## 🌍 1. Project Overview
+
+**RakshaSetu (रक्षासेतु)** is an AI-powered disaster preparedness and emergency response platform designed to connect environmental monitoring, intelligent threat detection, citizen emergency reporting, government coordination, and field responder operations within a unified ecosystem.
+
+The platform aims to transform traditional reactive disaster management into a more intelligent, coordinated, and data-driven approach.
+
+RakshaSetu combines machine learning, environmental sensor analysis, anomaly detection, forecasting, emergency prioritization, and centralized operational dashboards.
+
+### Our Vision
+
+To build an intelligent digital bridge between citizens, emergency responders, government authorities, and environmental intelligence systems.
+
+### Core Philosophy
+
+**SENSE → ANALYZE → PREDICT → PRIORITIZE → RESPOND → RECOVER**
+
+---
+
+## 🎯 2. Problem Statement
+
+Disaster management involves multiple stakeholders, environmental data sources, emergency reporting systems, and response teams.
+
+However, fragmented information, delayed threat identification, limited forecasting capabilities, and inefficient coordination can affect emergency preparedness and response.
+
+RakshaSetu addresses these challenges through:
+
+- Intelligent environmental monitoring.
+- AI-powered anomaly detection.
+- Predictive environmental analytics.
+- Centralized emergency reporting.
+- Citizen SOS assistance.
+- Priority-based incident management.
+- Government command and control.
+- Field responder coordination.
+
+---
+
+## 🚀 3. Key Features
+
+| Feature | Description |
+|---|---|
+| AI-Based Monitoring | Intelligent environmental data analysis |
+| Anomaly Detection | Statistical and deep-learning-based anomaly identification |
+| Aurora Forecasting | Time-series environmental condition forecasting |
+| Sensor Fusion | Multi-source environmental information integration |
+| Citizen SOS | Emergency reporting and location assistance |
+| Government Command Center | Centralized incident monitoring |
+| Responder Dashboard | Mission and incident management |
+| Priority Engine | P1, P2, P3 and P4 classification |
+| Multilingual Assistance | Disaster guidance and citizen support |
+| Administration | Access management and audit monitoring |
+
+---
+
+## 🏗️ 4. Complete System Architecture
+
+The RakshaSetu ecosystem is organized into six logical layers.
+
+1. External Data Sources
+2. Presentation Layer
+3. Application and Backend Layer
+4. AI/ML Intelligence Layer
+5. Event Communication Layer
+6. Data and Governance Layer
+
+### Master Architecture Diagram
+
+```mermaid
+flowchart TB
+    classDef source fill:#164E63,stroke:#06B6D4,color:#fff
+    classDef frontend fill:#172554,stroke:#3B82F6,color:#fff
+    classDef backend fill:#064E3B,stroke:#10B981,color:#fff
+    classDef ai fill:#581C87,stroke:#A855F7,color:#fff
+    classDef event fill:#7C2D12,stroke:#F97316,color:#fff
+    classDef storage fill:#27272A,stroke:#A1A1AA,color:#fff
+
+    subgraph INPUT["01 | EXTERNAL DATA SOURCES"]
+        direction LR
+        I1["IoT Sensors"]
+        I2["Citizen Reports"]
+        I3["Field Observations"]
+        I4["Weather and Satellite APIs"]
+    end
+
+    subgraph UI["02 | PRESENTATION LAYER"]
+        direction LR
+        U1["Government Dashboard"]
+        U2["Citizen Portal"]
+        U3["Responder Dashboard"]
+        U4["Admin Panel"]
+    end
+
+    subgraph APP["03 | APPLICATION LAYER"]
+        A1["Nx Workspace"]
+        A2["NestJS API Gateway"]
+        A3["Request Validation"]
+        A4["Business Logic"]
+        A5["Incident Management"]
+        A6["Mission and Resource Management"]
+        A1 --> A2 --> A3 --> A4
+        A4 --> A5
+        A4 --> A6
+    end
+
+    subgraph ML["04 | AI/ML INTELLIGENCE"]
+        M1["Multi-Source Sensor Fusion"]
+        M2["Z-Score Detection"]
+        M3["EDAD Model"]
+        M4["Aurora Forecasting"]
+        M5["Priority Engine"]
+        M1 --> M2
+        M1 --> M3
+        M1 --> M4
+        M2 --> M5
+        M3 --> M5
+        M4 --> M5
+    end
+
+    subgraph EVENTS["05 | EVENT COMMUNICATION"]
+        E1["incident.created"]
+        E2["sensing.fused"]
+        E3["anomaly.detected"]
+        E4["mission.assigned"]
+        E5["audit.event"]
+    end
+
+    subgraph DATA["06 | DATA AND GOVERNANCE"]
+        D1[("Application Data")]
+        D2[("Audit Records")]
+        D3[("ML Model Artifacts")]
+        D4[("Research Datasets")]
+    end
+
+    INPUT --> APP
+    UI <--> APP
+    APP <--> ML
+    APP <--> EVENTS
+    ML <--> EVENTS
+    APP <--> DATA
+    ML <--> DATA
+    EVENTS --> UI
+
+    class I1,I2,I3,I4 source
+    class U1,U2,U3,U4 frontend
+    class A1,A2,A3,A4,A5,A6 backend
+    class M1,M2,M3,M4,M5 ai
+    class E1,E2,E3,E4,E5 event
+    class D1,D2,D3,D4 storage
+```
+
+*Architecture note: This diagram represents the logical platform design. Individual connections should be considered implemented only where corresponding application code and integrations exist.*
+
+---
+
+## 🔄 5. Complete Disaster Management Workflow
+
+The following workflow represents the complete intended disaster management lifecycle.
+
+```mermaid
+flowchart TD
+    A(["START"]) --> B["Collect Environmental and Emergency Data"]
+
+    B --> C["Validate and Normalize Data"]
+    C --> D["Multi-Source Sensor Fusion"]
+    D --> E["Generate Environmental Zone State"]
+
+    E --> F["AI/ML Analysis"]
+
+    subgraph AI["INTELLIGENCE PROCESSING"]
+        F --> G["Z-Score Detection"]
+        F --> H["EDAD Deep Learning"]
+        F --> I["Aurora Forecasting"]
+    end
+
+    G --> J["Threat Assessment"]
+    H --> J
+    I --> J
+
+    J --> K{"Potential Threat Identified?"}
+
+    K -->|No| L["Continue Monitoring"]
+    L --> B
+
+    K -->|Yes| M["Generate Threat Information"]
+    M --> N["Emergency Priority Assessment"]
+    N --> O["Publish Operational Alert"]
+
+    subgraph RESPONSE["COORDINATED RESPONSE"]
+        O --> P["Government Command Center"]
+        O --> Q["Responder Mission Queue"]
+        Q --> R["Incident Verification"]
+        R --> S{"Verification Status"}
+        S -->|Verified| T["Mission Execution"]
+        S -->|Review Required| U["Escalation and Review"]
+        U --> P
+        P --> V["Resource Coordination"]
+        V --> T
+        T --> W["Mission Status Update"]
+    end
+
+    W --> X["Incident Resolution"]
+    X --> Y["Audit and Reporting"]
+    Y --> Z(["END"])
+```
+
+### Workflow Explanation
+
+1. Environmental and emergency data is collected.
+2. Input data is validated and normalized.
+3. Multiple sources are combined through sensor fusion.
+4. AI/ML components analyze environmental patterns.
+5. Potential anomalies and forecast information are assessed.
+6. Incidents are assigned operational priorities.
+7. Government authorities receive relevant information.
+8. Responders review and execute assigned missions.
+9. Mission status is updated.
+10. Incident information is retained for reporting and audit.
+
+---
+
+## 🖥️ 6. Four Operational Panels
+
+RakshaSetu is designed around four operational interfaces.
+
+### 6.1 Government Command Center
+
+**Purpose:** Centralized disaster monitoring and coordination.
+
+Features:
+
+- Live incident monitoring.
+- Environmental threat visualization.
+- Incident overview.
+- Resource allocation monitoring.
+- Department readiness.
+- Inter-agency coordination.
+- Emergency alerts.
+
+### 6.2 Citizen Safety Portal
+
+**Purpose:** Provide citizens with emergency reporting and safety assistance.
+
+Features:
+
+- One-tap SOS.
+- Location-based emergency reporting.
+- Photo evidence submission.
+- Family safety check-in.
+- Evacuation guidance.
+- Multilingual disaster assistance chatbot.
+
+### 6.3 Field Responder Dashboard
+
+**Purpose:** Support emergency teams during field operations.
+
+Features:
+
+- P1–P4 incident priority queue.
+- Incident verification.
+- Mission assignment.
+- Team status monitoring.
+- Hazard-aware navigation.
+- Field evidence submission.
+- Mission escalation.
+- Response updates.
+
+### 6.4 Administration Panel
+
+**Purpose:** Platform governance and administrative oversight.
+
+Features:
+
+- User management.
+- Role-Based Access Control.
+- Audit logs.
+- System health monitoring.
+- Backup and recovery workflows.
+- Administrative configuration.
+
+### Four-Panel Architecture
+
+```mermaid
+flowchart TB
+    A["RAKSHASETU PLATFORM"] --> B["Unified Application"]
+
+    B --> C["Government Command Center"]
+    B --> D["Citizen Safety Portal"]
+    B --> E["Field Responder Dashboard"]
+    B --> F["Administration Panel"]
+
+    C --> G1["Incident Monitoring"]
+    C --> G2["Resource Coordination"]
+    C --> G3["Government Alerts"]
+
+    D --> H1["SOS Reporting"]
+    D --> H2["Location and Evidence"]
+    D --> H3["Safety Guidance"]
+
+    E --> I1["Mission Queue"]
+    E --> I2["Incident Verification"]
+    E --> I3["Mission Updates"]
+
+    F --> J1["User Management"]
+    F --> J2["RBAC"]
+    F --> J3["Audit Monitoring"]
+
+    G1 --> K["Shared Backend Services"]
+    H1 --> K
+    I1 --> K
+    J1 --> K
+
+    K --> L["Centralized Processing"]
+    L --> M["Operational Updates"]
+```
+
+---
+
+## ⚙️ 7. Technology Stack
+
+The project documentation and supplied workspace information identify the following technologies and components.
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js |
+| Backend | NestJS |
+| Monorepo | Nx |
+| Programming | TypeScript, JavaScript, Python |
+| AI/ML | PyTorch |
+| Data Processing | Pandas, NumPy |
+| Statistical Analysis | Z-Score |
+| Deep Learning | 1D-CNN, Bidirectional GRU |
+| Forecasting | Seq2Seq, Temporal Attention |
+| Event Architecture | Kafka topic design |
+| Version Control | Git and GitHub |
+
+*Technology availability and integration status must be checked against the corresponding project configuration.*
+
+---
+
+## 🧠 8. AI/ML Intelligence Architecture
+
+The AI/ML subsystem provides the analytical capabilities for environmental monitoring, anomaly identification and forecasting.
+
+### AI/ML Processing Flow
+
+```mermaid
+flowchart TD
+    A["Environmental Input Data"] --> B["Preprocessing"]
+    B --> C["Feature Engineering"]
+    C --> D["Multi-Source Fusion"]
+
+    D --> E["Z-Score Detector"]
+    D --> F["EDAD Model"]
+    D --> G["Aurora Model"]
+
+    E --> H["Statistical Anomaly Results"]
+    F --> I["Deep Learning Anomaly Results"]
+    G --> J["Forecast Results"]
+
+    H --> K["Threat Assessment"]
+    I --> K
+    J --> K
+
+    K --> L["Priority Engine"]
+    L --> M["Backend Integration"]
+    M --> N["Operational Dashboards"]
+```
+
+---
+
+## 📊 9. Multi-Source Sensor Fusion
+
+Sensor fusion combines environmental and operational inputs into a unified representation.
+
+### Data Sources
+
+1. IoT weather and hydrology sensors.
+2. Citizen SOS and geo-reports.
+3. Field responder observations.
+4. Satellite and meteorological APIs.
+
+### Sensor Fusion Architecture
+
+```mermaid
+flowchart TD
+    A["IoT Sensors"] --> E["Input Validation"]
+    B["Citizen Reports"] --> E
+    C["Field Observations"] --> E
+    D["Weather and Satellite APIs"] --> E
+
+    E --> F["Source Reliability Assessment"]
+    F --> G["Trust-Weighted Fusion"]
+    G --> H["SensedZoneState"]
+
+    H --> I["Anomaly Detection"]
+    H --> J["Aurora Forecasting"]
+    I --> K["Threat Assessment"]
+    J --> K
+```
+
+### Fusion Equation
+
+The weighted fusion model can be represented as:
+
+\[
+FusedValue = \frac{\sum_{i=1}^{n}v_iw_i}{\sum_{i=1}^{n}w_i}
+\]
+
+Where:
+
+- \(v_i\) = Value from source i.
+- \(w_i\) = Trust weight of source i.
+- \(n\) = Number of valid sources.
+
+### Fusion Output
+
+The conceptual `SensedZoneState` includes:
+
+- Zone identifier.
+- Environmental metric.
+- Fused value.
 - Confidence score.
 - Source weights.
 
-PRIORITY ENGINE:
-- Severity.
-- People affected.
-- Distance.
+---
+
+## 📈 10. Z-Score Anomaly Detection
+
+The statistical anomaly detection component identifies observations that deviate from a calibrated baseline.
+
+### Mathematical Representation
+
+\[
+Z = \frac{x-\mu}{\sigma}
+\]
+
+Where:
+
+- \(x\) = Observed value.
+- \(\mu\) = Baseline mean.
+- \(\sigma\) = Baseline standard deviation.
+
+### Documented Thresholds
+
+- 2.0σ
+- 2.5σ
+- 3.0σ
+
+### Detection Workflow
+
+```mermaid
+flowchart TD
+    A["Incoming Sensor Data"] --> B["Load Baseline Statistics"]
+    B --> C["Calculate Z-Score"]
+    C --> D["Compare Against Threshold"]
+    D --> E{"Threshold Exceeded?"}
+    E -->|Yes| F["Generate Anomaly Flag"]
+    E -->|No| G["Normal Observation"]
+    F --> H["Threat Assessment"]
+    G --> I["Continue Monitoring"]
+```
+
+---
+
+## 🔬 11. EDAD-Inspired Deep Learning Architecture
+
+The EDAD-inspired model uses temporal representation learning for anomaly detection.
+
+### Model Architecture
+
+```mermaid
+flowchart TD
+    A["Input Time Series"] --> B["1D-CNN Encoder"]
+    B --> C["Bidirectional GRU"]
+    C --> D["Temporal Representation"]
+
+    D --> E["Dual Decomposition"]
+
+    E --> F["Trend Component Zs"]
+    E --> G["Auxiliary Component Za"]
+
+    F --> H["Representation Learning"]
+    G --> H
+
+    H --> I["InfoNCE Contrastive Head"]
+    H --> J["Mutual Information Penalty Guard"]
+
+    I --> K["Anomaly Scoring"]
+    J --> K
+
+    K --> L["Anomaly Output"]
+```
+
+### Documented Model Details
+
+| Parameter | Value |
+|---|---|
+| Model | EDAD-inspired |
+| Encoder | 1D-CNN |
+| Temporal Layer | Bidirectional GRU |
+| Decomposition | Trend + Auxiliary |
+| Contrastive Head | InfoNCE |
+| Training Epochs | 15 |
+| Trainable Parameters | 124,936 |
+
+---
+
+## 🔮 12. Aurora Forecasting Architecture
+
+Aurora is the documented environmental condition forecasting model.
+
+### Model Architecture
+
+```mermaid
+flowchart TD
+    A["Historical Environmental Data"] --> B["Input Sequence"]
+    B --> C["1D-CNN Feature Extraction"]
+    C --> D["Bidirectional GRU"]
+    D --> E["Temporal Attention"]
+    E --> F["Seq2Seq Decoder"]
+    F --> G["Forecast Output"]
+    G --> H["Environmental Condition Prediction"]
+```
+
+### Documented Characteristics
+
+- 1D-CNN feature extraction.
+- Bidirectional GRU.
+- Temporal attention.
+- Sequence-to-sequence architecture.
+- One-hour-ahead forecasting.
+- Eight environmental channels.
+
+### Model Files
+
+- `aurora_model.py`
+- `aurora_best.pt`
+
+---
+
+## 🚨 13. Emergency Priority Queue Engine
+
+The priority engine organizes incidents using multiple operational factors.
+
+### Priority Assessment
+
+- Incident severity.
+- Affected population.
+- Geographical proximity.
 - Time sensitivity.
 - Available resources.
 
-CHATBOT:
-- Multilingual disaster guidance.
-- Shelter lookups.
-- Reporting assistance.
-- Translation fallback.
+### Priority Workflow
 
-==================================================
-6. DATASET AND BENCHMARK DOCUMENTATION
-==================================================
+```mermaid
+flowchart TD
+    A["Incident Information"] --> B["Severity Assessment"]
+    A --> C["Affected Population"]
+    A --> D["Distance Assessment"]
+    A --> E["Time Sensitivity"]
+    A --> F["Resource Availability"]
 
-Document the actual dataset:
+    B --> G["Multi-Factor Assessment"]
+    C --> G
+    D --> G
+    E --> G
+    F --> G
 
-springbrook_wsn_synthetic_100k.csv
+    G --> H["Priority Classification"]
 
-- 100,000 samples.
-- 20 sensor nodes.
-- 10-minute sampling interval.
-- Eight environmental features.
-- Synthetic anomaly benchmark.
+    H --> I["P1 - Critical"]
+    H --> J["P2 - High"]
+    H --> K["P3 - Medium"]
+    H --> L["P4 - Low"]
 
-Document all eight features:
+    I --> M["Responder Mission Queue"]
+    J --> M
+    K --> M
+    L --> M
+```
 
-1. air_temperature_C
-2. relative_humidity_pct
-3. air_pressure_hPa
-4. wind_speed_ms
-5. wind_direction_deg
-6. leaf_wetness_pct
-7. soil_moisture_pct
-8. solar_radiation_Wm2
+*Exact scoring weights and thresholds depend on the implemented priority engine.*
 
-Battery voltage is reserved for device-health QA.
+---
 
-Document the actual benchmark:
+## 🆘 14. Citizen SOS Workflow
 
-Test split: 14,790 windows.
+The Citizen Safety Portal provides an interface for emergency reporting.
+
+### SOS Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    actor Citizen
+    participant UI as Citizen Portal
+    participant API as Backend API
+    participant GOV as Government Dashboard
+    participant RES as Responder Dashboard
+
+    Citizen->>UI: Initiate SOS
+    UI->>UI: Collect Available Location
+    Citizen->>UI: Submit Emergency Information
+    UI->>API: Send SOS Request
+    API->>API: Validate and Process
+    API->>GOV: Make Incident Available
+    GOV->>GOV: Review Incident
+    GOV->>RES: Coordinate Response
+    RES->>RES: Verify and Execute Mission
+    RES-->>API: Update Mission Status
+    API-->>GOV: Updated Incident Information
+```
+
+---
+
+## 🏛️ 15. Government Command Center Workflow
+
+```mermaid
+flowchart TD
+    A["Government Login"] --> B["Command Center"]
+
+    B --> C["Incident Overview"]
+    B --> D["Environmental Threat Map"]
+    B --> E["Resource Monitoring"]
+    B --> F["Department Readiness"]
+
+    C --> G["Incident Review"]
+    D --> H["Threat Assessment"]
+    E --> I["Resource Coordination"]
+    F --> J["Agency Coordination"]
+
+    G --> K["Operational Decision"]
+    H --> K
+    I --> K
+    J --> K
+
+    K --> L["Responder Coordination"]
+    L --> M["Continuous Monitoring"]
+    M --> N["Incident Resolution"]
+```
+
+---
+
+## 🚑 16. Field Responder Workflow
+
+```mermaid
+flowchart TD
+    A["Responder Login"] --> B["Mission Dashboard"]
+    B --> C["Priority-Based Mission Queue"]
+    C --> D["View Assigned Incident"]
+    D --> E["Incident Verification"]
+
+    E --> F{"Verification Result"}
+
+    F -->|Verified| G["Mission Execution"]
+    F -->|Review Required| H["Escalation and Review"]
+
+    G --> I["Field Evidence Submission"]
+    I --> J["Update Mission Status"]
+    J --> K["Mission Resolution"]
+
+    H --> L["Government Coordination"]
+    L --> C
+```
+
+---
+
+## 🔐 17. Administration and Access Control
+
+The administration layer is responsible for platform governance.
+
+### Conceptual RBAC Workflow
+
+```mermaid
+flowchart TD
+    A["User Login"] --> B["Authentication"]
+    B --> C["Role Identification"]
+
+    C --> D{"Authorized Role?"}
+
+    D -->|Government| E["Government Permissions"]
+    D -->|Citizen| F["Citizen Permissions"]
+    D -->|Responder| G["Responder Permissions"]
+    D -->|Admin| H["Admin Permissions"]
+
+    E --> I["Authorized Operations"]
+    F --> I
+    G --> I
+    H --> I
+
+    I --> J["Audit Event"]
+    J --> K["Audit Records"]
+```
+
+Security capabilities should be verified against the actual backend implementation.
+
+---
+
+## 📡 18. Event-Driven Communication Architecture
+
+The project documents the following Kafka event topic design.
+
+| Topic | Purpose |
+|---|---|
+| `incident.created` | New incident events |
+| `sensing.fused` | Fused environmental information |
+| `anomaly.detected` | Anomaly notifications |
+| `mission.assigned` | Mission assignment events |
+| `audit.event` | Administrative audit events |
+
+### Event Communication Flow
+
+```mermaid
+flowchart TD
+    A["Incident Management"] --> B["incident.created"]
+    C["Sensor Fusion"] --> D["sensing.fused"]
+    E["Anomaly Detection"] --> F["anomaly.detected"]
+    G["Mission Management"] --> H["mission.assigned"]
+    I["Administration"] --> J["audit.event"]
+
+    B --> K["Event Processing Layer"]
+    D --> K
+    F --> K
+    H --> K
+    J --> K
+
+    K --> L["Relevant Application Consumers"]
+    L --> M["Dashboard and Operational Updates"]
+```
+
+*Topic design does not by itself establish that a Kafka broker or all event consumers have been deployed.*
+
+---
+
+## 🧪 19. Research and Dataset Documentation
+
+The research subsystem includes synthetic environmental data, preprocessing, training, inference and evaluation workflows.
+
+### Dataset
+
+`springbrook_wsn_synthetic_100k.csv`
+
+| Property | Description |
+|---|---|
+| Total Samples | 100,000 |
+| Sensor Nodes | 20 |
+| Sampling Interval | 10 minutes |
+| Environmental Features | 8 |
+| Dataset Type | Synthetic anomaly benchmark |
+
+### Environmental Features
+
+1. `air_temperature_C`
+2. `relative_humidity_pct`
+3. `air_pressure_hPa`
+4. `wind_speed_ms`
+5. `wind_direction_deg`
+6. `leaf_wetness_pct`
+7. `soil_moisture_pct`
+8. `solar_radiation_Wm2`
+
+Battery voltage is reserved for device-health quality assurance.
+
+### Research Pipeline
+
+```mermaid
+flowchart TD
+    A["Synthetic Dataset"] --> B["Data Loading"]
+    B --> C["Schema Inspection"]
+    C --> D["Chronological Data Split"]
+    D --> E["Preprocessing and Scaling"]
+    E --> F["Feature Engineering"]
+
+    F --> G["Z-Score Baseline"]
+    F --> H["EDAD Model Training"]
+
+    G --> I["Model Evaluation"]
+    H --> I
+
+    I --> J["Controlled Spike Validation"]
+    J --> K["Comparative Metrics"]
+    K --> L["Reports and Visualizations"]
+    L --> M["Model Artifacts"]
+    M --> N["Inference"]
+```
+
+---
+
+## 📊 20. Model Evaluation and Benchmark Results
+
+Documented synthetic benchmark results:
+
+**Test split: 14,790 windows**
 
 | Metric | Z-Score | EDAD |
+|---|---:|---:|
 | Flag Rate | 41.09% | 2.04% |
 | Mean Anomaly Burst Duration | 15.87 windows | 1.72 windows |
 | Controlled Spike Detection | 100% | 83.42% |
 | Inference Throughput | 1,152,183 windows/sec | 37,237 windows/sec |
 | Trainable Parameters | 0 | 124,936 |
 
-Include:
-- Explanation of each metric.
-- Comparative evaluation.
-- Synthetic benchmark limitations.
-- Clear distinction between synthetic results and real-world validation.
+### Interpretation
 
-Do not claim that these metrics prove real-world disaster prediction accuracy.
+- Z-Score provides a statistical baseline for comparison.
+- EDAD provides a learned temporal representation for anomaly detection.
+- Flag rate indicates the proportion of windows flagged by the respective method.
+- Burst duration describes the average length of detected anomaly sequences.
+- Controlled spike detection measures performance on the specified synthetic spike test.
+- Throughput measures the documented inference benchmark.
 
-==================================================
-7. COMPLETE REPOSITORY STRUCTURE
-==================================================
+**Research limitation:** These results come from a synthetic benchmark. They do not establish real-world disaster prediction accuracy or prove performance on live environmental sensor networks. Real-world validation is required.
 
-Generate the repository tree by inspecting the actual repository.
+---
 
-Do not guess folders or filenames.
+## 📁 21. Repository Structure
 
-Include important directories and explain the purpose of each.
+The following is a high-level view of the documented repository components. Refer to the actual repository for the complete directory tree.
 
-Include:
-- Frontend.
-- Backend.
-- ML.
-- Research.
-- Models.
-- Datasets.
-- Scripts.
-- Configuration.
-- Reports.
-- Documentation.
+```text
+RakshaSetu/
+│
+├── ml/
+│   └── Machine Learning Components
+│
+├── rakshasetu-research/
+│   └── Research and Model Development
+│
+├── .gitignore
+├── README.md
+│
+├── aurora_best.pt
+├── aurora_model.py
+│
+├── edad_best.pt
+├── edad_model.py
+├── edad_raw_scores.csv
+├── edad_training_log.json
+│
+├── data_leakage_check.py
+├── download_era5_7years.py
+├── run_edad_inference.py
+├── server.py
+│
+└── synthetic_test_cases_full.csv
+```
 
-Avoid listing every irrelevant dependency or generated build file.
+The `ml/` and `rakshasetu-research/` directories contain additional components that should be explored for their individual scripts, datasets and configuration files.
 
-==================================================
-8. INSTALLATION AND EXECUTION
-==================================================
+---
 
-Inspect actual package scripts and configuration before writing commands.
+## 🛠️ 22. Prerequisites
 
-Document separate setup instructions for:
+Before running the platform, ensure the required development tools are installed.
 
-A. Frontend
+- Node.js
+- npm
+- Python 3
+- Git
+- VS Code or another development environment
 
-B. Backend
+Additional Python dependencies and frontend/backend requirements should be installed using the repository's actual dependency files.
 
-C. Python ML Environment
+---
 
-D. Research Pipeline
+## ⚙️ 23. Installation and Setup
 
-E. Complete Application
+### Step 1: Clone the Repository
 
-Use the documented commands where applicable:
+```bash
+git clone <YOUR_REPOSITORY_URL>
+```
 
+### Step 2: Navigate to the Project
+
+```bash
+cd <YOUR_PROJECT_DIRECTORY>
+```
+
+### Step 3: Install Node Dependencies
+
+```bash
 npm install
+```
 
+### Step 4: Configure Environment Variables
+
+Create the required environment configuration based on the project's existing environment example files.
+
+Do not commit API keys, passwords, private tokens or other secrets.
+
+### Step 5: Set Up Python Environment
+
+Navigate to the relevant ML or research directory and install its documented Python dependencies.
+
+---
+
+## 🖥️ 24. Running the Backend
+
+The backend workspace uses Nx and NestJS.
+
+From the Nx workspace root:
+
+```bash
 npx nx serve api-gateway
+```
 
+Build the backend:
+
+```bash
 npx nx build api-gateway
+```
 
+Inspect available targets:
+
+```bash
 npx nx show project api-gateway
+```
 
+Visualize workspace dependencies:
+
+```bash
 npx nx graph
+```
 
-python -m http.server 8000
+---
 
-python run_all.py
+## 🌐 25. Running the Frontend
 
-python src/data_loader.py
+From the Next.js application directory, use the available project scripts:
 
-python src/preprocess.py
-
-python src/zscore_baseline.py
-
-python src/train_edad.py
-
-python src/evaluate.py
-
-python src/generate_report.py
-
+```bash
+npm install
 npm run dev
+```
 
+Open:
+
+```text
+http://localhost:3000
+```
+
+For a production build:
+
+```bash
 npm run build
+```
 
-Do not assume that all commands run from the same directory.
+---
 
-Clearly explain the correct working directory for every command.
+## 🤖 26. Running AI/ML Components
 
-Include environment variable documentation based on actual configuration files. Never expose secret values.
+The repository includes Python model scripts and trained model artifacts.
 
-==================================================
-9. API DOCUMENTATION
-==================================================
+Examples of documented component files:
 
-Inspect actual NestJS controllers and services.
+```text
+aurora_model.py
+edad_model.py
+run_edad_inference.py
+```
 
-Create API documentation containing:
+The actual execution commands depend on the scripts' arguments, Python dependencies and input file requirements.
 
-- HTTP method.
-- Endpoint.
-- Description.
-- Request parameters.
-- Request body.
-- Response structure.
-- Authentication requirements.
+For inference, use the relevant script's documented usage:
 
-Do not fabricate endpoints.
+```bash
+python run_edad_inference.py --help
+```
 
-If an endpoint is not implemented, mark it as planned or undocumented.
+If the script does not support `--help`, inspect its argument parser before executing it.
 
-==================================================
-10. FINAL QUALITY REQUIREMENTS
-==================================================
+---
 
-The final README must:
+## 🔌 27. API Documentation
 
-1. Be written in professional technical English.
-2. Be located at the repository root.
-3. Contain all major project details.
-4. Contain all mandatory architecture diagrams.
-5. Use clean Mermaid syntax.
-6. Render correctly on GitHub.
-7. Have no broken internal links.
-8. Have no duplicate sections.
-9. Have no contradictory architecture descriptions.
-10. Include real project commands.
-11. Include the actual repository structure.
-12. Preserve the actual model evaluation results.
-13. Clearly distinguish implemented and proposed features.
-14. Include a professional project overview at the top.
-15. Be suitable for technical judges, developers and contributors.
+The NestJS API Gateway provides the backend entry point.
 
-For diagrams:
-- Prefer top-down or left-to-right layouts.
-- Avoid excessively wide diagrams.
-- Use subgraphs to organize logical layers.
-- Use sequence diagrams for interaction workflows.
-- Use flowcharts for processing pipelines.
-- Use consistent Mermaid styles.
-- Keep diagrams readable on GitHub desktop and mobile.
+API documentation should be maintained using the actual implemented controllers and routes.
 
-Do not use external images as a substitute for editable Mermaid architecture diagrams.
+| Module | Responsibility |
+|---|---|
+| Authentication | User access and authentication |
+| Incident Management | Incident lifecycle |
+| Citizen SOS | Emergency reporting |
+| Mission Management | Responder missions |
+| Resource Management | Resource coordination |
+| Administration | Platform governance |
 
-==================================================
-11. EXECUTION INSTRUCTIONS
-==================================================
+Exact endpoint URLs, request bodies, response schemas and authentication requirements must be taken from the implemented backend controllers.
 
-Now perform these actions:
+---
 
-STEP 1:
-Inspect the complete repository.
+## ☁️ 28. Deployment Architecture
 
-STEP 2:
-Understand the actual frontend, backend, AI/ML and research components.
+The following is the proposed logical deployment architecture.
 
-STEP 3:
-Create a complete consolidated README.md in the ROOT directory.
+```mermaid
+flowchart TB
+    U["Users and Stakeholders"]
 
-STEP 4:
-Include all required architecture and workflow diagrams.
+    subgraph PRESENTATION["PRESENTATION ENVIRONMENT"]
+        F["Next.js Frontend"]
+    end
 
-STEP 5:
-Verify Mermaid syntax and Markdown formatting.
+    subgraph APPLICATION["APPLICATION ENVIRONMENT"]
+        G["NestJS API Gateway"]
+        S["Application Services"]
+    end
 
-STEP 6:
-Check all file paths and commands against the actual repository.
+    subgraph INTELLIGENCE["AI/ML ENVIRONMENT"]
+        M["Python ML Runtime"]
+        A["Aurora and EDAD Models"]
+    end
 
-STEP 7:
-Check that no original source files have been modified.
+    subgraph DATA["DATA ENVIRONMENT"]
+        D["Application Storage"]
+        L["Model Artifacts"]
+        R["Research Datasets"]
+    end
 
-STEP 8:
-Provide a final summary containing:
-- README created.
-- Sections included.
-- Diagrams included.
-- Technologies documented.
-- Any missing implementation details.
-- Any assumptions that require verification.
+    U --> F
+    F <--> G
+    G <--> S
+    S <--> M
+    M --> A
+    S <--> D
+    M <--> L
+    M <--> R
+```
 
-IMPORTANT:
-Only create or update the root README.md.
-Do not modify application source code, model files, datasets, configuration files or existing project functionality.
+This represents a proposed logical deployment model. Actual hosting providers, cloud resources, database services and production infrastructure should be documented after deployment verification.
 
-The final output should look like documentation for a serious, professionally engineered AI-powered disaster management platform, not a basic student project README.
+---
+
+## 🧰 29. Testing and Validation
+
+Testing should cover all major platform layers.
+
+| Testing Area | Validation |
+|---|---|
+| Frontend | UI and navigation |
+| Backend | API and business logic |
+| AI/ML | Inference and model outputs |
+| Dataset | Schema and data quality |
+| Anomaly Detection | Baseline and controlled spike evaluation |
+| Integration | Frontend-backend communication |
+| Security | Authentication and authorization |
+| Workflow | Incident and mission lifecycle |
+
+---
+
+## 🔒 30. Security and Reliability
+
+Security and reliability are essential for disaster management systems.
+
+Recommended engineering considerations:
+
+- Role-based access control.
+- Secure API communication.
+- Input validation.
+- Protection of citizen location information.
+- Audit logging.
+- Secure environment configuration.
+- Backup and recovery.
+- Error handling.
+- Monitoring and observability.
+- Human verification of critical emergency decisions.
+
+AI-generated alerts should support authorized human decision-makers, not replace emergency authorities.
+
+---
+
+## 🔮 31. Future Scope
+
+Potential future enhancements include:
+
+1. Integration with live IoT sensor networks.
+2. Real-time meteorological data integration.
+3. Satellite imagery-based environmental analysis.
+4. Improved geospatial disaster visualization.
+5. Multilingual voice-based emergency assistance.
+6. Advanced evacuation route planning.
+7. Real-time resource optimization.
+8. Mobile applications for citizens and responders.
+9. Expanded real-world model validation.
+10. Cloud-based scalable infrastructure.
+11. Inter-agency data exchange.
+12. Advanced disaster simulation and preparedness tools.
+
+---
+
+## 👥 32. Project Information
+
+| Detail | Information |
+|---|---|
+| Project Name | RakshaSetu |
+| Hindi Name | रक्षासेतु |
+| Competition | INNOVIK 6.0 |
+| Team | UnoReverse |
+| Project Category | AI / ML and Disaster Management |
+| Platform Type | Integrated Disaster Management Ecosystem |
+
+---
+
+## 🤝 33. Team UnoReverse
+
+**Building technology for smarter disaster preparedness and safer communities.**
+
+Team members:
+
+- Yash Kumar Mishra
+- Bhavyansh Parihar
+- Aditi
+- Priti
+
+---
+
+## 🌟 34. Our Mission
+
+RakshaSetu aims to make disaster preparedness more intelligent, emergency coordination more structured, and critical information more accessible.
+
+By connecting AI-driven environmental intelligence with citizen reporting, government coordination and field response, we envision a more connected disaster management ecosystem.
+
+**Technology should not only identify problems. It should help people respond better.**
+
+---
+
+<p align="center">
+  <strong>RAKSHASETU — Connecting Intelligence with Emergency Response.</strong>
+  <br/>
+  <em>Designed and developed by Team UnoReverse | INNOVIK 6.0</em>
+</p>
